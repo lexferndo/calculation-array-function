@@ -8,6 +8,7 @@ function randomNumber(){
         isiArray.push(number)
     }    
 
+    console.log("Isi Array")
     console.log(isiArray)
     console.log("Jumlah Index pada Array = " + isiArray.length)
 }
@@ -25,13 +26,13 @@ function separateArray(){
         }
     }
 
-    console.log("Array Genap")
+    console.log("Index Array Genap")
     console.log(arrayGenap)
     console.log("Jumlah Index Array Genap = " + arrayGenap.length)
 
     console.log("=======================================")
 
-    console.log("Array Ganjil")
+    console.log("Index Array Ganjil")
     console.log(arrayGanjil)
     console.log("Jumlah Index Array Ganjil = " + arrayGanjil.length)
 }
